@@ -1,0 +1,14 @@
+# Arquivos de build
+bin/
+obj/
+
+# Configurações do Visual Studio
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configurações sensíveis
+appsettings*.json
+.env
