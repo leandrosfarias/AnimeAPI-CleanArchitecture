@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leand\\Documents\\GitHub\\AnimeAPI-CleanArchitecture\\AnimeAPI.API\\AnimeAPI.API.csproj": {}
+    "C:\\Users\\leand\\Documents\\GitHub\\AnimeAPI-CleanArchitecture\\animeapi.api\\AnimeAPI.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leand\\Documents\\GitHub\\AnimeAPI-CleanArchitecture\\AnimeAPI.API\\AnimeAPI.API.csproj": {
+    "C:\\Users\\leand\\Documents\\GitHub\\AnimeAPI-CleanArchitecture\\animeapi.api\\AnimeAPI.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leand\\Documents\\GitHub\\AnimeAPI-CleanArchitecture\\AnimeAPI.API\\AnimeAPI.API.csproj",
+        "projectUniqueName": "C:\\Users\\leand\\Documents\\GitHub\\AnimeAPI-CleanArchitecture\\animeapi.api\\AnimeAPI.API.csproj",
         "projectName": "AnimeAPI.API",
-        "projectPath": "C:\\Users\\leand\\Documents\\GitHub\\AnimeAPI-CleanArchitecture\\AnimeAPI.API\\AnimeAPI.API.csproj",
+        "projectPath": "C:\\Users\\leand\\Documents\\GitHub\\AnimeAPI-CleanArchitecture\\animeapi.api\\AnimeAPI.API.csproj",
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leand\\Documents\\GitHub\\AnimeAPI-CleanArchitecture\\AnimeAPI.API\\obj\\",
+        "outputPath": "C:\\Users\\leand\\Documents\\GitHub\\AnimeAPI-CleanArchitecture\\animeapi.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,9 +53,31 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

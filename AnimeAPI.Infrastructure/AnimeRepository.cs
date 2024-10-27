@@ -13,7 +13,21 @@ public class AnimeRepository : IAnimeRepository
         _context = context;
     }
 
-    public async Task<Anime> GetById(int id)
+    public async Task<Anime> FindByNameAsync(string name)
+    {
+        try
+        {
+            var anime = await _context.Animes.FirstOrDefaultAsync(a => a.Name.ToLower() == name.ToLower());
+            return anime!;
+        }
+        catch (Exception ex)
+        {
+
+            throw new DataAccessException("", ex);
+        }
+    }
+
+    public async Task<Anime> GetByIdAsync(int id)
     {
         try
         {
@@ -45,7 +59,7 @@ public class AnimeRepository : IAnimeRepository
     {
         try
         {
-            var anime = await _context.FindAsync<Anime>(id);
+            var anime = await GetByIdAsync(id);
             if (anime != null) 
             {
                 anime.IsDeleted = true;

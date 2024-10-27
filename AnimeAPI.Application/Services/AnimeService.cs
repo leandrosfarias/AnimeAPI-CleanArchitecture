@@ -42,6 +42,11 @@ public class AnimeService : IAnimeService
 
     public Task<Anime> GetByIdAsync(int id)
     {
-        return _animeRepository.GetById(id);
+        return _animeRepository.GetByIdAsync(id);
+    }
+
+    public Task<Anime> FindByNameAsync(string name)
+    {
+        return _animeRepository.FindByNameAsync(name);
     }
 }

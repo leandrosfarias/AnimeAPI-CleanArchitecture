@@ -1,4 +1,6 @@
-﻿namespace AnimeAPI.Domain.Entities;
+﻿using System.Text.Json.Serialization;
+
+namespace AnimeAPI.Domain.Entities;
 
 public class Anime
 {

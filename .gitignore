@@ -4,6 +4,7 @@ obj/
 
 # Configurações do Visual Studio
 .vscode/
+.vs
 *.suo
 *.user
 *.userosscache
