@@ -24,8 +24,8 @@ Antes de executar o projeto, certifique-se de ter as seguintes ferramentas insta
 1. **Clone o Repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/leandrosfarias/AnimeAPI-CleanArchitecture.git
+   cd AnimeAPI-CleanArchitecture
    ```
 
 2. **Configurar Variáveis de Ambiente**: Crie um arquivo `.env` na raiz do projeto de AnimeAPI.API com as seguintes variáveis de ambiente para configurar a conexão com o banco de dados:
