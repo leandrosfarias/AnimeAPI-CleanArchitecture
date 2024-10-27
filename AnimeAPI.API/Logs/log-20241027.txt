@@ -1,0 +1,336 @@
+2024-10-27 08:05:55.919 -03:00 [INF] Now listening on: http://localhost:5243
+2024-10-27 08:05:55.957 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 08:05:55.957 -03:00 [INF] Hosting environment: Development
+2024-10-27 08:05:55.957 -03:00 [INF] Content root path: C:\Users\leand\Documents\GitHub\AnimeAPI-CleanArchitecture\animeapi.api
+2024-10-27 08:06:25.551 -03:00 [INF] Application is shutting down...
+2024-10-27 08:06:28.664 -03:00 [INF] Now listening on: http://localhost:5243
+2024-10-27 08:06:28.684 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 08:06:28.686 -03:00 [INF] Hosting environment: Development
+2024-10-27 08:06:28.686 -03:00 [INF] Content root path: C:\Users\leand\Documents\GitHub\AnimeAPI-CleanArchitecture\animeapi.api
+2024-10-27 08:09:26.805 -03:00 [INF] Application is shutting down...
+2024-10-27 08:11:18.447 -03:00 [INF] Now listening on: http://localhost:5243
+2024-10-27 08:11:18.468 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 08:11:18.468 -03:00 [INF] Hosting environment: Development
+2024-10-27 08:11:18.468 -03:00 [INF] Content root path: C:\Users\leand\Documents\GitHub\AnimeAPI-CleanArchitecture\animeapi.api
+2024-10-27 08:11:30.709 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-10-27 08:11:30.773 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 65.4381ms
+2024-10-27 08:11:30.784 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.js - null null
+2024-10-27 08:11:30.785 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.js - 200 null application/javascript;charset=utf-8 1.4057ms
+2024-10-27 08:11:30.968 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-10-27 08:11:31.055 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.9558ms
+2024-10-27 08:12:36.601 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-10-27 08:12:36.602 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 0.4132ms
+2024-10-27 08:12:36.632 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.js - null null
+2024-10-27 08:12:36.632 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.js - 200 null application/javascript;charset=utf-8 0.3729ms
+2024-10-27 08:12:36.830 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-10-27 08:12:36.835 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.751ms
+2024-10-27 08:12:55.203 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/v1/Anime - application/json 69
+2024-10-27 08:12:55.208 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-27 08:12:55.212 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.Create (AnimeAPI.API)'
+2024-10-27 08:12:55.238 -03:00 [INF] Route matched with {action = "Create", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(AnimeAPI.Application.DTOs.AnimeCreateDto) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:12:56.562 -03:00 [INF] Executed DbCommand (39ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE lower(a."Name") = @__ToLower_0
+LIMIT 1
+2024-10-27 08:12:56.617 -03:00 [WRN] Conflito: Um anime com o nome Naruto já existe.
+2024-10-27 08:12:56.621 -03:00 [INF] Executing ConflictObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 08:12:56.626 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.Create (AnimeAPI.API) in 1385.6885ms
+2024-10-27 08:12:56.627 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.Create (AnimeAPI.API)'
+2024-10-27 08:12:56.632 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/v1/Anime - 409 null application/json; charset=utf-8 1428.6735ms
+2024-10-27 08:13:03.726 -03:00 [INF] Application is shutting down...
+2024-10-27 08:48:29.243 -03:00 [INF] Now listening on: http://localhost:5243
+2024-10-27 08:48:29.264 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 08:48:29.264 -03:00 [INF] Hosting environment: Development
+2024-10-27 08:48:29.264 -03:00 [INF] Content root path: C:\Users\leand\Documents\GitHub\AnimeAPI-CleanArchitecture\animeapi.api
+2024-10-27 08:48:29.498 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-10-27 08:48:29.567 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 70.1393ms
+2024-10-27 08:48:29.580 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.js - null null
+2024-10-27 08:48:29.582 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.js - 200 null application/javascript;charset=utf-8 1.9965ms
+2024-10-27 08:48:29.698 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-10-27 08:48:29.783 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.2482ms
+2024-10-27 08:48:45.908 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime/2 - null null
+2024-10-27 08:48:45.911 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-27 08:48:45.913 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetById (AnimeAPI.API)'
+2024-10-27 08:48:45.929 -03:00 [INF] Route matched with {action = "GetById", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:48:46.356 -03:00 [INF] Iniciando busca pelo anime com ID 2.
+2024-10-27 08:48:46.979 -03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE a."Id" = @__id_0 AND NOT (a."IsDeleted")
+LIMIT 1
+2024-10-27 08:48:47.024 -03:00 [INF] Anime com ID 2 encontrado: Dragon Ball.
+2024-10-27 08:48:47.029 -03:00 [INF] Executing OkObjectResult, writing value of type 'AnimeAPI.Application.DTOs.AnimeResponseDto'.
+2024-10-27 08:48:47.036 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetById (AnimeAPI.API) in 1104.7782ms
+2024-10-27 08:48:47.037 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetById (AnimeAPI.API)'
+2024-10-27 08:48:47.042 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime/2 - 200 null application/json; charset=utf-8 1133.8791ms
+2024-10-27 08:48:51.603 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime/1 - null null
+2024-10-27 08:48:51.604 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetById (AnimeAPI.API)'
+2024-10-27 08:48:51.604 -03:00 [INF] Route matched with {action = "GetById", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:48:51.607 -03:00 [INF] Iniciando busca pelo anime com ID 1.
+2024-10-27 08:48:51.626 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE a."Id" = @__id_0 AND NOT (a."IsDeleted")
+LIMIT 1
+2024-10-27 08:48:51.626 -03:00 [WRN] Anime com ID 1 não encontrado.
+2024-10-27 08:48:51.626 -03:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 08:48:51.628 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetById (AnimeAPI.API) in 23.9772ms
+2024-10-27 08:48:51.628 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetById (AnimeAPI.API)'
+2024-10-27 08:48:51.629 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime/1 - 404 null application/json; charset=utf-8 25.2478ms
+2024-10-27 08:48:57.852 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime/2 - null null
+2024-10-27 08:48:57.852 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetById (AnimeAPI.API)'
+2024-10-27 08:48:57.852 -03:00 [INF] Route matched with {action = "GetById", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:48:57.855 -03:00 [INF] Iniciando busca pelo anime com ID 2.
+2024-10-27 08:48:57.900 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE a."Id" = @__id_0 AND NOT (a."IsDeleted")
+LIMIT 1
+2024-10-27 08:48:57.900 -03:00 [INF] Anime com ID 2 encontrado: Dragon Ball.
+2024-10-27 08:48:57.900 -03:00 [INF] Executing OkObjectResult, writing value of type 'AnimeAPI.Application.DTOs.AnimeResponseDto'.
+2024-10-27 08:48:57.900 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetById (AnimeAPI.API) in 48.1264ms
+2024-10-27 08:48:57.901 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetById (AnimeAPI.API)'
+2024-10-27 08:48:57.901 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime/2 - 200 null application/json; charset=utf-8 48.7634ms
+2024-10-27 08:49:35.879 -03:00 [INF] Application is shutting down...
+2024-10-27 08:51:07.193 -03:00 [INF] Now listening on: http://localhost:5243
+2024-10-27 08:51:07.219 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 08:51:07.219 -03:00 [INF] Hosting environment: Development
+2024-10-27 08:51:07.219 -03:00 [INF] Content root path: C:\Users\leand\Documents\GitHub\AnimeAPI-CleanArchitecture\animeapi.api
+2024-10-27 08:51:07.999 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-10-27 08:51:08.074 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 76.0432ms
+2024-10-27 08:51:08.086 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.js - null null
+2024-10-27 08:51:08.088 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.js - 200 null application/javascript;charset=utf-8 1.7829ms
+2024-10-27 08:51:08.189 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-10-27 08:51:08.274 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.2921ms
+2024-10-27 08:51:24.854 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime?director=Kishimoto&pageIndex=1&pageSize=10 - null null
+2024-10-27 08:51:24.859 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-27 08:51:24.862 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:51:24.878 -03:00 [INF] Route matched with {action = "GetAll", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, Int32, Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:51:24.959 -03:00 [INF] Iniciando busca de animes com filtros: Diretor=Kishimoto, Nome=null, Palavra-Chave no Resumo=null, Página=1, Tamanho da Página=10.
+2024-10-27 08:51:25.384 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-10-27 08:51:25.384 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-10-27 08:51:25.633 -03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__ToLower_0_contains='?', @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE NOT (a."IsDeleted") AND lower(a."Director") LIKE @__ToLower_0_contains
+LIMIT @__p_2 OFFSET @__p_1
+2024-10-27 08:51:25.645 -03:00 [WRN] Nenhum anime encontrado com os filtros aplicados.
+2024-10-27 08:51:25.649 -03:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 08:51:25.656 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API) in 775.8741ms
+2024-10-27 08:51:25.656 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:51:25.662 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime?director=Kishimoto&pageIndex=1&pageSize=10 - 404 null application/json; charset=utf-8 807.6726ms
+2024-10-27 08:51:32.745 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime?director=Toryama&pageIndex=1&pageSize=10 - null null
+2024-10-27 08:51:32.746 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:51:32.746 -03:00 [INF] Route matched with {action = "GetAll", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, Int32, Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:51:32.750 -03:00 [INF] Iniciando busca de animes com filtros: Diretor=Toryama, Nome=null, Palavra-Chave no Resumo=null, Página=1, Tamanho da Página=10.
+2024-10-27 08:51:32.766 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ToLower_0_contains='?', @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE NOT (a."IsDeleted") AND lower(a."Director") LIKE @__ToLower_0_contains
+LIMIT @__p_2 OFFSET @__p_1
+2024-10-27 08:51:32.800 -03:00 [INF] Busca de animes concluída. 1 resultados encontrados.
+2024-10-27 08:51:32.800 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[AnimeAPI.Application.DTOs.AnimeResponseDto, AnimeAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 08:51:32.807 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API) in 60.6373ms
+2024-10-27 08:51:32.807 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:51:32.807 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime?director=Toryama&pageIndex=1&pageSize=10 - 200 null application/json; charset=utf-8 61.9696ms
+2024-10-27 08:51:42.490 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=ninja&pageIndex=1&pageSize=10 - null null
+2024-10-27 08:51:42.490 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:51:42.490 -03:00 [INF] Route matched with {action = "GetAll", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, Int32, Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:51:42.493 -03:00 [INF] Iniciando busca de animes com filtros: Diretor=null, Nome=null, Palavra-Chave no Resumo=ninja, Página=1, Tamanho da Página=10.
+2024-10-27 08:51:42.537 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-10-27 08:51:42.537 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-10-27 08:51:42.541 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ToLower_0_contains='?', @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE NOT (a."IsDeleted") AND lower(a."Summary") LIKE @__ToLower_0_contains
+LIMIT @__p_2 OFFSET @__p_1
+2024-10-27 08:51:42.541 -03:00 [WRN] Nenhum anime encontrado com os filtros aplicados.
+2024-10-27 08:51:42.541 -03:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 08:51:42.541 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API) in 51.1427ms
+2024-10-27 08:51:42.542 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:51:42.542 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=ninja&pageIndex=1&pageSize=10 - 404 null application/json; charset=utf-8 51.8953ms
+2024-10-27 08:51:48.258 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=pirata&pageIndex=1&pageSize=10 - null null
+2024-10-27 08:51:48.258 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:51:48.258 -03:00 [INF] Route matched with {action = "GetAll", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, Int32, Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:51:48.258 -03:00 [INF] Iniciando busca de animes com filtros: Diretor=null, Nome=null, Palavra-Chave no Resumo=pirata, Página=1, Tamanho da Página=10.
+2024-10-27 08:51:48.261 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ToLower_0_contains='?', @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE NOT (a."IsDeleted") AND lower(a."Summary") LIKE @__ToLower_0_contains
+LIMIT @__p_2 OFFSET @__p_1
+2024-10-27 08:51:48.262 -03:00 [INF] Busca de animes concluída. 1 resultados encontrados.
+2024-10-27 08:51:48.262 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[AnimeAPI.Application.DTOs.AnimeResponseDto, AnimeAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 08:51:48.262 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API) in 4.0214ms
+2024-10-27 08:51:48.262 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:51:48.262 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=pirata&pageIndex=1&pageSize=10 - 200 null application/json; charset=utf-8 4.7463ms
+2024-10-27 08:54:22.045 -03:00 [INF] Application is shutting down...
+2024-10-27 08:54:26.294 -03:00 [INF] Now listening on: http://localhost:5243
+2024-10-27 08:54:26.314 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 08:54:26.315 -03:00 [INF] Hosting environment: Development
+2024-10-27 08:54:26.315 -03:00 [INF] Content root path: C:\Users\leand\Documents\GitHub\AnimeAPI-CleanArchitecture\animeapi.api
+2024-10-27 08:54:38.008 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-10-27 08:54:38.071 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 63.9099ms
+2024-10-27 08:54:38.082 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.js - null null
+2024-10-27 08:54:38.083 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.js - 200 null application/javascript;charset=utf-8 1.4369ms
+2024-10-27 08:54:38.265 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-10-27 08:54:38.352 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.0671ms
+2024-10-27 08:55:07.339 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=goku&pageIndex=1&pageSize=10 - null null
+2024-10-27 08:55:07.342 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-27 08:55:07.344 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:55:07.360 -03:00 [INF] Route matched with {action = "GetAll", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, Int32, Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:55:07.436 -03:00 [INF] Iniciando busca de animes com filtros: Diretor=null, Nome=null, Palavra-Chave no Resumo=goku, Página=1, Tamanho da Página=10.
+2024-10-27 08:55:07.853 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-10-27 08:55:07.853 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-10-27 08:55:08.097 -03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__ToLower_0_contains='?', @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE NOT (a."IsDeleted") AND lower(a."Summary") LIKE @__ToLower_0_contains
+LIMIT @__p_2 OFFSET @__p_1
+2024-10-27 08:55:08.109 -03:00 [WRN] Nenhum anime encontrado com os filtros aplicados.
+2024-10-27 08:55:08.113 -03:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 08:55:08.119 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API) in 757.6194ms
+2024-10-27 08:55:08.120 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:55:08.125 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=goku&pageIndex=1&pageSize=10 - 404 null application/json; charset=utf-8 786.1275ms
+2024-10-27 08:55:15.606 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=pirata&pageIndex=1&pageSize=10 - null null
+2024-10-27 08:55:15.606 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:55:15.606 -03:00 [INF] Route matched with {action = "GetAll", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, Int32, Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:55:15.610 -03:00 [INF] Iniciando busca de animes com filtros: Diretor=null, Nome=null, Palavra-Chave no Resumo=pirata, Página=1, Tamanho da Página=10.
+2024-10-27 08:55:15.626 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ToLower_0_contains='?', @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE NOT (a."IsDeleted") AND lower(a."Summary") LIKE @__ToLower_0_contains
+LIMIT @__p_2 OFFSET @__p_1
+2024-10-27 08:55:15.660 -03:00 [INF] Busca de animes concluída. 1 resultados encontrados.
+2024-10-27 08:55:15.661 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[AnimeAPI.Application.DTOs.AnimeResponseDto, AnimeAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 08:55:15.668 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API) in 61.4704ms
+2024-10-27 08:55:15.668 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:55:15.668 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=pirata&pageIndex=1&pageSize=10 - 200 null application/json; charset=utf-8 62.4932ms
+2024-10-27 08:55:22.772 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=dragon&pageIndex=1&pageSize=10 - null null
+2024-10-27 08:55:22.772 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:55:22.772 -03:00 [INF] Route matched with {action = "GetAll", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, Int32, Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:55:22.775 -03:00 [INF] Iniciando busca de animes com filtros: Diretor=null, Nome=null, Palavra-Chave no Resumo=dragon, Página=1, Tamanho da Página=10.
+2024-10-27 08:55:22.818 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ToLower_0_contains='?', @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE NOT (a."IsDeleted") AND lower(a."Summary") LIKE @__ToLower_0_contains
+LIMIT @__p_2 OFFSET @__p_1
+2024-10-27 08:55:22.819 -03:00 [INF] Busca de animes concluída. 1 resultados encontrados.
+2024-10-27 08:55:22.819 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[AnimeAPI.Application.DTOs.AnimeResponseDto, AnimeAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 08:55:22.819 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API) in 46.734ms
+2024-10-27 08:55:22.819 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:55:22.819 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=dragon&pageIndex=1&pageSize=10 - 200 null application/json; charset=utf-8 47.5202ms
+2024-10-27 08:57:30.926 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5243/api/v1/Anime/2 - application/json 981
+2024-10-27 08:57:30.926 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API)'
+2024-10-27 08:57:30.929 -03:00 [INF] Route matched with {action = "Update", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, AnimeUpdateDto) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:57:30.942 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-10-27 08:57:30.952 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API) in 22.3954ms
+2024-10-27 08:57:30.952 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API)'
+2024-10-27 08:57:30.952 -03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5243/api/v1/Anime/2 - 400 null application/problem+json; charset=utf-8 26.4973ms
+2024-10-27 08:57:49.518 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5243/api/v1/Anime/2 - application/json 966
+2024-10-27 08:57:49.518 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API)'
+2024-10-27 08:57:49.518 -03:00 [INF] Route matched with {action = "Update", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, AnimeUpdateDto) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:57:49.519 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-10-27 08:57:49.520 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API) in 1.2543ms
+2024-10-27 08:57:49.520 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API)'
+2024-10-27 08:57:49.520 -03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5243/api/v1/Anime/2 - 400 null application/problem+json; charset=utf-8 1.7621ms
+2024-10-27 08:58:28.477 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5243/api/v1/Anime/2 - application/json 966
+2024-10-27 08:58:28.477 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API)'
+2024-10-27 08:58:28.477 -03:00 [INF] Route matched with {action = "Update", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, AnimeUpdateDto) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:58:28.478 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-10-27 08:58:28.478 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API) in 1.0783ms
+2024-10-27 08:58:28.478 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API)'
+2024-10-27 08:58:28.478 -03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5243/api/v1/Anime/2 - 400 null application/problem+json; charset=utf-8 1.7057ms
+2024-10-27 08:59:40.909 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5243/api/v1/Anime/2 - application/json 952
+2024-10-27 08:59:40.910 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API)'
+2024-10-27 08:59:40.910 -03:00 [INF] Route matched with {action = "Update", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, AnimeUpdateDto) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:59:40.914 -03:00 [INF] Iniciando atualização do anime com ID 2.
+2024-10-27 08:59:40.933 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE a."Id" = @__id_0 AND NOT (a."IsDeleted")
+LIMIT 1
+2024-10-27 08:59:41.006 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?', @p1='?' (DbType = Boolean), @p2='?', @p3='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Animes" SET "Director" = @p0, "IsDeleted" = @p1, "Name" = @p2, "Summary" = @p3
+WHERE "Id" = @p4;
+2024-10-27 08:59:41.010 -03:00 [INF] Anime com ID 2 atualizado com sucesso.
+2024-10-27 08:59:41.012 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-10-27 08:59:41.012 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API) in 102.2592ms
+2024-10-27 08:59:41.012 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.Update (AnimeAPI.API)'
+2024-10-27 08:59:41.012 -03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5243/api/v1/Anime/2 - 204 null null 102.9417ms
+2024-10-27 08:59:48.470 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=dragon&pageIndex=1&pageSize=10 - null null
+2024-10-27 08:59:48.470 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:59:48.470 -03:00 [INF] Route matched with {action = "GetAll", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, Int32, Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 08:59:48.470 -03:00 [INF] Iniciando busca de animes com filtros: Diretor=null, Nome=null, Palavra-Chave no Resumo=dragon, Página=1, Tamanho da Página=10.
+2024-10-27 08:59:48.472 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ToLower_0_contains='?', @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE NOT (a."IsDeleted") AND lower(a."Summary") LIKE @__ToLower_0_contains
+LIMIT @__p_2 OFFSET @__p_1
+2024-10-27 08:59:48.472 -03:00 [INF] Busca de animes concluída. 1 resultados encontrados.
+2024-10-27 08:59:48.472 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[AnimeAPI.Application.DTOs.AnimeResponseDto, AnimeAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 08:59:48.472 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API) in 2.5226ms
+2024-10-27 08:59:48.472 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 08:59:48.473 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=dragon&pageIndex=1&pageSize=10 - 200 null application/json; charset=utf-8 3.0095ms
+2024-10-27 08:59:52.998 -03:00 [INF] Application is shutting down...
+2024-10-27 12:30:51.901 -03:00 [INF] Now listening on: http://localhost:5243
+2024-10-27 12:30:51.923 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 12:30:51.923 -03:00 [INF] Hosting environment: Development
+2024-10-27 12:30:51.923 -03:00 [INF] Content root path: C:\Users\leand\Documents\GitHub\AnimeAPI-CleanArchitecture\animeapi.api
+2024-10-27 12:30:52.116 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-10-27 12:30:52.200 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 86.3471ms
+2024-10-27 12:30:52.212 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.js - null null
+2024-10-27 12:30:52.214 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.js - 200 null application/javascript;charset=utf-8 1.9442ms
+2024-10-27 12:30:52.397 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-10-27 12:30:52.486 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.5132ms
+2024-10-27 12:31:05.051 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=goku&pageIndex=1&pageSize=10 - null null
+2024-10-27 12:31:05.054 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=goku&pageIndex=1&pageSize=10 - 401 null null 2.8806ms
+2024-10-27 12:31:18.998 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=goku&pageIndex=1&pageSize=10 - null null
+2024-10-27 12:31:19.000 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-27 12:31:19.003 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 12:31:19.031 -03:00 [INF] Route matched with {action = "GetAll", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, Int32, Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 12:31:19.206 -03:00 [INF] Iniciando busca de animes com filtros: Diretor=null, Nome=null, Palavra-Chave no Resumo=goku, Página=1, Tamanho da Página=10.
+2024-10-27 12:31:19.714 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-10-27 12:31:19.714 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-10-27 12:31:19.981 -03:00 [INF] Executed DbCommand (39ms) [Parameters=[@__ToLower_0_contains='?', @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE NOT (a."IsDeleted") AND lower(a."Summary") LIKE @__ToLower_0_contains
+LIMIT @__p_2 OFFSET @__p_1
+2024-10-27 12:31:20.030 -03:00 [INF] Busca de animes concluída. 1 resultados encontrados.
+2024-10-27 12:31:20.035 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[AnimeAPI.Application.DTOs.AnimeResponseDto, AnimeAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 12:31:20.051 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API) in 1017.6268ms
+2024-10-27 12:31:20.051 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 12:31:20.056 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=goku&pageIndex=1&pageSize=10 - 200 null application/json; charset=utf-8 1058.017ms
+2024-10-27 12:31:29.534 -03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5243/api/v1/Anime/2 - null null
+2024-10-27 12:31:29.534 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.Delete (AnimeAPI.API)'
+2024-10-27 12:31:29.538 -03:00 [INF] Route matched with {action = "Delete", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 12:31:29.540 -03:00 [INF] Iniciando exclusão do anime com ID 2.
+2024-10-27 12:31:29.568 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE a."Id" = @__id_0 AND NOT (a."IsDeleted")
+LIMIT 1
+2024-10-27 12:31:29.624 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?', @p1='?' (DbType = Boolean), @p2='?', @p3='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Animes" SET "Director" = @p0, "IsDeleted" = @p1, "Name" = @p2, "Summary" = @p3
+WHERE "Id" = @p4;
+2024-10-27 12:31:29.629 -03:00 [INF] Anime com ID 2 excluído com sucesso.
+2024-10-27 12:31:29.631 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-10-27 12:31:29.631 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.Delete (AnimeAPI.API) in 93.2927ms
+2024-10-27 12:31:29.631 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.Delete (AnimeAPI.API)'
+2024-10-27 12:31:29.631 -03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5243/api/v1/Anime/2 - 204 null null 97.7685ms
+2024-10-27 12:31:42.123 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=goku&pageIndex=1&pageSize=10 - null null
+2024-10-27 12:31:42.123 -03:00 [INF] Executing endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 12:31:42.124 -03:00 [INF] Route matched with {action = "GetAll", controller = "Anime"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, Int32, Int32) on controller AnimeAPI.API.Controllers.AnimeController (AnimeAPI.API).
+2024-10-27 12:31:42.126 -03:00 [INF] Iniciando busca de animes com filtros: Diretor=null, Nome=null, Palavra-Chave no Resumo=goku, Página=1, Tamanho da Página=10.
+2024-10-27 12:31:42.171 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ToLower_0_contains='?', @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Director", a."IsDeleted", a."Name", a."Summary"
+FROM "Animes" AS a
+WHERE NOT (a."IsDeleted") AND lower(a."Summary") LIKE @__ToLower_0_contains
+LIMIT @__p_2 OFFSET @__p_1
+2024-10-27 12:31:42.171 -03:00 [WRN] Nenhum anime encontrado com os filtros aplicados.
+2024-10-27 12:31:42.171 -03:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-27 12:31:42.172 -03:00 [INF] Executed action AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API) in 48.4827ms
+2024-10-27 12:31:42.172 -03:00 [INF] Executed endpoint 'AnimeAPI.API.Controllers.AnimeController.GetAll (AnimeAPI.API)'
+2024-10-27 12:31:42.172 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/v1/Anime?summaryKeyword=goku&pageIndex=1&pageSize=10 - 404 null application/json; charset=utf-8 49.0446ms
+2024-10-27 12:32:10.173 -03:00 [INF] Application is shutting down...
